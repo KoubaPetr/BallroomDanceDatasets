@@ -4,6 +4,8 @@ Each class holds instances corresponding to segments of Youtube videos, where th
 
 The script called download_and_edit.py downloads the videos, cuts out the relevant segments and merges them into single instance (if they come from the same video) and stores them in the folder cut_videos (and given subfolder corresponding to the label). By commenting out a single line (with os.remove()) in the script, the original videos in their full length will also be stored.
 
+The script download_and_edit.py depends on moviepy and pytube (to be replaced by youtube-dl, which is morereliable).
+
 The collection of the relevant IDs of the Youtube videos can be found in the folder dataset_text_files. The text files with the IDs also hold the indication of relevant segments of the video, lines of these text files obey the following structure: 
 
 YoutubeID segment1_start_sec segment1_end_sec segment2_start_sec segment2_end_sec ... 
