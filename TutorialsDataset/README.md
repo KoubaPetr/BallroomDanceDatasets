@@ -1,4 +1,4 @@
-#Tutorials Dataset
+# Tutorials Dataset
 
 Directory structure prepared for the download of the "Tutorials Dataset". This is a dataset of videos of 10 different ballroom dances corresponding to the International Style, i.e.: Cha-Cha,Rumba,Jive,Paso Doble, Samba, Waltz, Viennese Waltz, Quickstep, Slowfox and Tango.
 
