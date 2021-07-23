@@ -1,0 +1,1 @@
+This directory can be used to store the whole videos downloaded by the downloader, by default however they get removed in order to not waste hardrive space.
