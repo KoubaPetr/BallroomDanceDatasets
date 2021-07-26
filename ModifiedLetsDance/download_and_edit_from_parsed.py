@@ -50,11 +50,7 @@ for genre in genres:
             print("Whole video removed")
             print('============================================================')
             ### below just producing new representation of the dataset
-            if os.path.exists('dataset_text_files/' + genre + '_links.txt'):
-                append_write = 'a'  # append if already exists
-            else:
-                append_write = 'w'  # make a new file if not
-            file = open('dataset_textfiles/' + genre + '_links.txt', append_write)
+            file = open('dataset_textfiles/' + genre + '_links.txt', 'a') ### Appending here. To regenerate the list of links with start and end times of segments, prepare corresponding empty text files
             file.write(id + ' ' + str(start_time) + ' ' + str(end_time) + '\n')
             file.close()
 
