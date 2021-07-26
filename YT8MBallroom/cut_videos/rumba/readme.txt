@@ -1,0 +1,1 @@
+This directory can be used to store the instances of the video dataset, i.e. the downloaded videos after the editing (cutting and merging the relevant segments)
