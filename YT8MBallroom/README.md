@@ -1,5 +1,6 @@
-# Modified Let's Dance
+# YT8M Ballroom
+Directory containing the structure of the 'YT8M Ballroom' dataset - structure similar to 'Tutorials Dataset' - see corresponding folder for details.
 
-Directory containing the structure of the 'Modified Let's Dance' dataset - structure similar to 'Tutorials Dataset' - see corresponding folder for details.
+Script segment_downloader.py downloads the dataset into cut_videos/ folder. The folder dataset_textfiles/ contains the files with Youtube IDs and times of relevant segments in those videos - this is based on the selection of 3000 segments with minimal entropy of softmax scores of the audio classification.
 
-Script download_and_edit.py downloads the dataset into cut_videos/ folder. Rest of the scripts and the folder dataset_textfiles_parsed serve for the reproduction of the links from the Lets Dance dataset (but this is not necessary to get the dataset) - to this end the RGB representation of the dataset has to be downloaded from its authors (https://www.cc.gatech.edu/cpl/projects/dance/) and unzipped into rgb/ folder.
+The textfiles Ballroom_Dance_IDs.txt and Latin_Dance_IDs.txt contain the video IDs of the corresponding classes in Youtube-8M dataset. The file union_ordering.txt containes the union of these two classes.
