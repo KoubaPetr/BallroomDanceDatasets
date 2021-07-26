@@ -4,3 +4,5 @@ Directory containing the structure of the 'YT8M Ballroom' dataset - structure si
 Script segment_downloader.py downloads the dataset into cut_videos/ folder. The folder dataset_textfiles/ contains the files with Youtube IDs and times of relevant segments in those videos - this is based on the selection of 3000 segments with minimal entropy of softmax scores of the audio classification.
 
 The textfiles Ballroom_Dance_IDs.txt and Latin_Dance_IDs.txt contain the video IDs of the corresponding classes in Youtube-8M dataset. The file union_ordering.txt containes the union of these two classes.
+
+TODO: add list of available subset out of the union + file with the softmax scores for those videos.
