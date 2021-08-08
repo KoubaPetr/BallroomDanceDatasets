@@ -11,3 +11,5 @@ The script download_and_edit.py depends on moviepy and pytube (to be replaced by
 The collection of the relevant IDs of the Youtube videos can be found in the folder dataset_text_files. The text files with the IDs also hold the indication of relevant segments of the video, lines of these text files obey the following structure: 
 
 YoutubeID segment1_start_sec segment1_end_sec segment2_start_sec segment2_end_sec ... 
+
+The list of videos assigned to the validation set is available under dataset_text_files/validation_set_ids.txt
